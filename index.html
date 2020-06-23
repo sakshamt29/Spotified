@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotified</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="heading">Spoti<span id="fied">fied</span></h1>
+    <div class="first">
+      <button class="access">Log in to Spotify</button>
+      <i class="fab fa-spotify"></i>
+    </div>
+
+    <div class="second">
+      <button input="href" class="btn">Create Spotify Playlist</button>
+    </div>
+    <hr
+      style="
+        height: 2px;
+        border-width: 0;
+        color: black;
+        background-color: black;
+        margin-top: 15px;
+      "
+    />
+    <form class="form" action="">
+      <div>
+        <span>Enter Youtube API Key:</span
+        ><input type="text" placeholder=" Youtube API Key" id="y_apikey" />
+      </div>
+
+      <div style="margin-top: 20px;">
+        <span> Enter Youtube Client Id:</span>
+        <input type="text" placeholder=" Youtube Client Id" id="y_clientid" />
+      </div>
+      <div style="margin-top: 20px;">
+        <span>Enter Youtube Playlist Id:</span>
+        <input type="text" placeholder="Playlist Id" id="y_playlist" />
+      </div>
+    </form>
+    <button class="bttttn" type="button" onclick="getInputValue();">
+      Submit
+    </button>
+    <div class="info">
+      How to Get Youtube
+      <a
+        href="https://stackoverflow.com/questions/11607614/how-can-we-get-youtube-developers-key-and-client-id"
+        target="_blank"
+        >API Key and Client Id?
+      </a>
+      <div style="margin-top: 10px;">
+        How to Get
+        <a
+          href="https://www.sociablekit.com/find-youtube-playlist-id/"
+          target="_blank"
+          >Youtube Playlist Id?</a
+        >
+      </div>
+    </div>
+
+    <div class="third">
+      <button class="youtube" onclick="loadClient()">
+        Get Youtube Playlist Info
+      </button>
+    </div>
+    <hr
+      style="
+        height: 2px;
+        border-width: 0;
+        color: black;
+        background-color: black;
+        margin-top: 15px;
+      "
+    />
+    <div class="fourth">
+      <button class="spotify">
+        Add Songs to Spotify Playlist
+      </button>
+    </div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="js/app.js"></script>
+    <footer>
+      Made By
+      <a href="https://sakshamt29.github.io/" target="_blank">Saksham Tomar</a>
+    </footer>
+  </body>
+</html>
+<!-- Made By Saksham Tomar -->

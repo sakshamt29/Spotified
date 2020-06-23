@@ -1,0 +1,89 @@
+body {
+  text-align: center;
+}
+.first .access {
+  margin-left: 2%;
+  margin-top: 50px;
+  font-family: proxima_nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  border: 2px solid;
+  height: 60px;
+  background-color: #1db954;
+  cursor: pointer;
+}
+.fa-spotify {
+  font-size: 40px;
+  background-color: white;
+}
+.second .btn {
+  padding: 5px;
+
+  margin-top: 2%;
+
+  font-size: medium;
+  font-weight: bold;
+  border: 2px solid;
+  height: 60px;
+  background-color: #1db954;
+  cursor: pointer;
+}
+.third .youtube {
+  margin-top: 3%;
+  font-family: proxima_nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  border: 2px solid;
+  height: 50px;
+  width: 165px;
+  cursor: pointer;
+  background-color: #d71e18;
+}
+.fourth .spotify {
+  margin-top: 1%;
+  font-family: proxima_nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  border: 2px solid;
+  height: 60px;
+  width: 165px;
+  cursor: pointer;
+  background-color: #1db954;
+  cursor: pointer;
+}
+.form {
+  font-family: proxima_nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.bttttn {
+  font-family: proxima_nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 15px;
+}
+.info {
+  font-weight: bold;
+  font-family: proxima_nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+
+  margin-top: 10px;
+}
+footer {
+  margin-top: 5%;
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+a:link {
+  color: red;
+  text-decoration: none;
+}
+#heading {
+  margin-top: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 70px;
+  margin-bottom: 0;
+  color: #1db954;
+}
+#fied {
+  color: #d71e18;
+}
