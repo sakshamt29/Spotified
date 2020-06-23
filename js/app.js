@@ -15,7 +15,7 @@ let user_id = "";
 ac.addEventListener("click", function () {
   const authEndpoint = "https://accounts.spotify.com/authorize";
   const clientId = "1c507c87a7774809b6eb4dc7869097c8";
-  const redirectUri = "http://127.0.0.1:5500/index.html";
+  const redirectUri = "https://sakshamt29.github.io/Spotified/";
   const scopes = ["playlist-modify-private"];
 
   window.location = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
